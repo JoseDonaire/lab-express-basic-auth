@@ -1,0 +1,21 @@
+<div>
+
+  <h2>Registro de Usuario:</h2>
+
+  <form action="/auth/signup" method="POST">
+
+    <label for="username">Nombre de Usuario:</label>
+    <input type="text" name="username">
+    <br>
+    <label for="password">Contraseña:</label>
+    <input type="password" name="password">
+    <br>
+    <p style="color: red;">{{errorMessage}}</p>
+    <br>
+    <button>Crear usuario</button>
+
+  </form>
+
+
+
+</div>

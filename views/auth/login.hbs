@@ -1,0 +1,20 @@
+<div>
+
+  <h2>Acceso a la pagina</h2>
+
+  <form action="/auth/login" method="POST">
+
+    <label for="user">Nombre de Usuario:</label>
+    <input type="text" name="user">
+    <br>
+    <label for="password">Contraseña:</label>
+    <input type="password" name="password">
+    <br>
+    <p style="color: red;">{{errorMessage}}</p>
+    <br>
+    <button>Acceder</button>
+
+
+  </form>
+
+</div>
